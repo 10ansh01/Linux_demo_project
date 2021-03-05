@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+[data-border]{
+    border: 1px solid red;
+}
+p{
+    font-size: 14px;
+    color: #A0A0A0;
+    line-height: 1.6;
+}
+h1{
+    font-size: 32px;
+    color: #2C2C2C;
+}
+h2{
+    font-size: 25px;
+    color: #FCB017;
+    font-weight: normal;
+}
+h3{
+    color: #FCB017;
+    font-size: 32px;
+    font-weight: normal;
+}
+h4{
+    color: #D2D2D2;
+    font-weight: normal;
+    font-size: 25px;
+}
+h6{
+    font-size: 14px;
+    color: #FCB017;
+}
+.container {
+    width: 1170px ;
+    margin: auto;
+
+}
+.upside-icon{
+    color: white;
+    background: #FCB017;
+    position: fixed;
+    padding: 5px 10px;
+    right: 20px;
+    bottom: 0px;
+}
+/* nav bar started */
+header{
+    background: #2C2C2C;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+ul.topnav{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: 20px 0px;
+}
+ul.topnav li{
+    margin: 10px;
+    text-decoration: none;
+}
+ul.topnav li:last-child {
+    margin-right: 0px;
+}
+ul.topnav li:last-child a{
+    padding-right: 0px;
+}
+ul.topnav li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #FCB017;
+    font-size: 13px;
+    font-weight: bold;
+}
+ul.topnav li a:hover{
+    color: white;
+}
+ul.topnav li a.active{
+    background: #FCB017;
+    padding: 31.5px 15px 31.5px 15px;
+    color: #2C2C2C ;
+}
+.logo .fa{
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+/* navbar ended */
+/* pricing-header started */
+.pricing-header-bg{
+    background: #FCB017;
+    padding: 17px;
+}
+/* pricing-header ended */
+/* VOLUPTATEM-ACCUSANTIUM-DOLOREMQUE started */
+.VOLUPTATEM-ACCUSANTIUM-DOLOREMQUE-section{
+    background: #2C2C2C;
+    padding: 50px;
+}
+/* VOLUPTATEM-ACCUSANTIUM-DOLOREMQUE ended */
+/* Pricing-tags-section started */
+.pricing-tags-section{
+    background: #2C2C2C;
+    padding: 50px;
+}
+.pricing-tags{
+    display: flex;
+    justify-content: space-between;
+}
+/* basic heading */
+.pricing-tags .heading{
+    border: 0.5px solid #a0a0a09f;
+    width: 23%;
+    position: relative;
+    padding-top: 100px;
+}
+.pricing-tags .heading h3{
+    margin-top: -20px;
+}
+.pricing-tags .heading h4{
+    background: #424242;
+    border-bottom: 2px dotted #FCB017;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.pricing-tags .heading ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.pricing-tags .heading h3{
+    text-align: center;
+}
+.pricing-tags .heading ul li{
+    border: 0.5px solid #a0a0a08f;
+    background: #424242;
+    padding: 15px 0;
+    text-align: center;
+    color: #929292;
+}
+.pricing-tags .heading ul li:first-child{
+    border-top: 0px;
+}
+.pricing-tags .heading .button{
+    background: #4E4E4E;
+    padding: 40px;
+}
+.pricing-tags .heading .button .text{
+    background: #FCB017;
+    text-align: center;
+    padding: 15px;
+    width: 65%;
+    margin-left: 30px;
+}
+.pricing-tags .heading .button .text:hover{
+    opacity: 0.9;
+}
+
+/* Pricing-tags-section ended */
+/* upper-footer started */
+.footer-01{
+    background: #171717;
+    padding: 40px;
+}
+.upper-footer{
+    display: flex;
+}
+.upper-footer ul li{
+    color: #8c8c8c;
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.upper-footer ul li:hover{
+    color: #171717;
+    cursor: pointer;
+}
+.upper-footer .quick-links ul li{
+    text-decoration: none;
+}
+.upper-footer .our-contact p{
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.upper-footer .our-contact{
+    width: 20%;
+}
+.upper-footer .quick-links{
+    width: 20%;
+    margin: 0px 0px 0px 80px;
+}
+.upper-footer .latest-posts{
+    width: 25%;
+    margin: 0px 0px 0px 60px;
+}
+.upper-footer .recent-news{
+    width: 25%;
+}
+/* upper-footer ended */
+/* lower footer started */
+.footer-02{
+    background: #1B1B1B;
+    padding: 40px;
+}
+span{
+    font-size: 12px;
+    color: #909090;
+}
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.lower-footer .text a{
+    text-decoration: none;
+    color: #FCB017;
+    font-size: 12px;
+}
+.lower-footer .icons i{
+    color: #FCB017;
+    border: 1px solid #f5f5f521;
+    padding: 10px;
+    margin-left: 5px;
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.lower-footer .icons i:hover{
+    color: white;
+}
+/* lower footer ended */
