@@ -113,6 +113,9 @@ ul.topnav li a.active{
     display: flex;
     margin: 15px;
 }
+.icon-section-1 .text h2,p{
+    margin: 0;
+}
 .icon-section-1 .box{
     margin-right: 7px;
 }
@@ -126,10 +129,13 @@ ul.topnav li a.active{
 .icon-section-2{
     display: flex;
     margin: 15px;
-    border: 1px solid red;
+    margin-top: 70px;
+}
+.icon-section-2 .text h2,p{
+    margin: 0;
 }
 .icon-section-2 .box{
-    display: flex;
+    margin-right: 7px;
 }
 .icon-section-2 .box i{
     font-size: 42px;
