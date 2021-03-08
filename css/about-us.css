@@ -28,9 +28,9 @@ h3{
     font-weight: normal;
 }
 h4{
-    color: #D2D2D2;
+    font-size: 12px;
+    color: #FCB017;
     font-weight: normal;
-    font-size: 25px;
 }
 h6{
     font-size: 14px;
@@ -122,4 +122,147 @@ ul.topnav li a.active{
     width: 50%;
     margin-left: 40px;
 }
+.about-us-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.about-us-body .why-choose-us{
+    width: 29%;
+}
+.about-us-body .our-solution{
+    width: 29%;
+}
+.about-us-body .our-solution ul{
+    margin-left: -40px;
+}
+.about-us-body .our-solution ul li{
+    color:#A0A0A0;
+    padding: 17px 17px;
+    border: 1px solid #A0A0A0;
+    margin:5px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.about-us-body .our-expertise{
+    width: 29%;
+}
+.about-us-body .our-expertise .prog-1{
+    font-size: 12px;
+    width: 80%;
+}
+.about-us-body .our-expertise .prog-2{
+    font-size: 12px;
+    width: 80%;
+}
+.about-us-body .our-expertise .prog-3{
+    font-size: 12px;
+    width: 80%;
+}
+.about-us-body .our-expertise .prog-4{
+    font-size: 12px;
+    width: 80%;
+}
 /* about-us-section ended */
+/* our-team section started */
+.our-team-heading h5{
+    font-size: 18px;
+    color: #FCB017;
+    font-weight: normal;
+}
+.our-team h5{
+    font-size: 18px;
+    color: #FCB017;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+.our-team p{
+    margin-top: 0;
+    text-align: center;
+}
+.our-team{
+    display: flex;
+    margin-top: 50px;
+}
+.our-team .profile{
+    margin: 7px;
+}
+.profile img{
+    display: flex;
+    width: 90%;
+    margin-left: 13px;
+}
+/* our-team section ended */
+/* upper-footer started */
+.footer-01{
+    background: #171717;
+    padding: 40px;
+}
+.upper-footer{
+    display: flex;
+}
+.upper-footer ul li{
+    color: #8c8c8c;
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.upper-footer ul li:hover{
+    color: #171717;
+    cursor: pointer;
+}
+.upper-footer .quick-links ul li{
+    text-decoration: none;
+}
+.upper-footer .our-contact p{
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.upper-footer .our-contact{
+    width: 20%;
+}
+.upper-footer .quick-links{
+    width: 20%;
+    margin: 0px 0px 0px 80px;
+}
+.upper-footer .latest-posts{
+    width: 25%;
+    margin: 0px 0px 0px 60px;
+}
+.upper-footer .recent-news{
+    width: 25%;
+}
+/* upper-footer ended */
+/* lower footer started */
+.footer-02{
+    background: #1B1B1B;
+    padding: 40px;
+}
+span{
+    font-size: 12px;
+    color: #909090;
+}
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.lower-footer .text a{
+    text-decoration: none;
+    color: #FCB017;
+    font-size: 12px;
+}
+.lower-footer .icons i{
+    color: #FCB017;
+    border: 1px solid #f5f5f521;
+    padding: 10px;
+    margin-left: 5px;
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.lower-footer .icons i:hover{
+    color: white;
+}
+/* lower footer ended */
