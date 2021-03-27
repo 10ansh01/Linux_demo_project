@@ -190,9 +190,8 @@ ul.topnav li a.active{
     margin: 7px;
 }
 .profile img{
-    display: flex;
     width: 90%;
-    margin-left: 13px;
+    justify-content: center;
 }
 /* our-team section ended */
 /* upper-footer started */
